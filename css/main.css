@@ -1,0 +1,146 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+    --white: #FFF;
+    --primary-navy: #242742;
+    --roboto: "Roboto";
+}
+
+body {
+    font-family: var(--roboto);
+    background-color: var(--primary-navy);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 928px;
+    height: 641px;
+    display: flex;
+    border-radius: 36px;
+    background: var(--white);
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+}
+
+.left-side {
+    padding-top: 97px;
+    padding-left: 64px;
+    padding-bottom: 98px;
+}
+
+.left-side__title {
+    max-width: 346px;
+    width: 100%;
+    color: var(--primary-navy);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+
+.left-side__desc {
+    max-width: 376px;
+    width: 100%;
+    color: var(--primary-navy);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+
+.left-side__item {
+    display: flex;
+    column-gap: 16px;
+    margin-top: 10px;
+}
+
+.left-side-item__image {
+    width: 21px;
+    height: 21px;
+}
+
+.left-side-item__desc {
+    max-width: 339px;
+    width: 100%;
+    color: var(--primary-navy);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.left-side-searchline__title {
+    color: var(--primary-navy);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 150%;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.search {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: #F8FAFD;
+    padding-left: 24px;
+    width: 376px;
+    height: 56px;
+    border-radius: 10px;
+    border: 1px solid #19182B40;
+    background: #F8FAFD;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.10);
+    padding-left: 16px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.left-side__btn {
+    padding-top: 18px;
+    padding-bottom: 14px;
+    padding-left: 71px;
+    padding-right: 71px;
+    max-width: 233px;
+    width: 100%;
+    color: var(--white);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    border-radius: 8px;
+    background: var(--primary-navy);
+}
+
+.right-side {
+    padding: 24px;
+    padding-left: 64px;
+}
+
+.right-side__image {
+    width: 400px;
+    height: 593px;
+    object-fit: cover;
+}
+
+.all-btn:active{
+    background: var(--Gradient-1, linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%));
+    }
